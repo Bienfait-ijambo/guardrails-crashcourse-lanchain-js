@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    
+     "paths": {
+       "@/*": ["src/*"]
+    },
+    
+  },
+  "include": ["src", "lessons/advance-langgraph/chapter02", "lessons/advance-langgraph/chapter01", "lessons/jev/test-mcp-client.js", "lessons/jev/test-models.js", "lessons/jev/helper.js", "lessons/jev/jev01.js", "lessons/jev/jev02.js", "lessons/jev/jev03.js", "lessons/jev/mcp-alone.js", "lessons/jev/jev04.js"],
+  "exclude": ["node_modules"] 
+}
+
